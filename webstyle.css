@@ -1,0 +1,117 @@
+/* 版面設計 */
+
+body {
+    margin: 24px 10px;
+    font-family: Arial, '微軟正黑體', sans-serif;
+}
+
+
+
+
+
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+#topnews {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#oldnews {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/*細節設計*/
+
+
+#banner{
+	float: left;
+}
+
+#banner h1 {
+	margin:0;
+}
+
+
+#banner img{
+	vertical-align: bottom;
+	width: 332px;
+}
+
+
+/*header nav*/
+/* 可用google font 尋找喜歡的瀏覽器字體 https://fonts.google.com/ */
+
+nav{
+	float: right;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 30px;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
